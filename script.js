@@ -20,27 +20,27 @@ function processClasses(classToToggle, clickedId) {
     }
 }
 
-function mackeBlod(clickedId) {
+function makeBlod(clickedId) {
     let classToToggle = "blod";
     processClasses(classToToggle, clickedId);
 }
 
-function mackeItalic(clickedId) {
+function makeItalic(clickedId) {
     let classToToggle = "italic";
     processClasses(classToToggle, clickedId);
 }
 
-function mackeUnderline(clickedId) {
+function makeUnderline(clickedId) {
     let classToToggle = "underline";
     processClasses(classToToggle, clickedId);
 }
 
-function mackeBlue(clickedId) {
+function makeBlue(clickedId) {
     let classToToggle = "blue";
     processClasses(classToToggle, clickedId);
 }
 
-function mackeBiggerOrSmaller(toAdd) {
+function makeBiggerOrSmaller(toAdd) {
     let textArea = document.getElementById("textZone");
     //let style = getComputedStyle(textArea, null).getPropertyValue('font-size');
     let style = getComputedStyle(textArea, null).fontSize;
@@ -52,11 +52,11 @@ function mackeBiggerOrSmaller(toAdd) {
     }
 }
 
-function mackeBigger() {
-    mackeBiggerOrSmaller(true)
+function makeBigger() {
+    makeBiggerOrSmaller(true)
 
 }
 
-function mackeSmaller() {
-    mackeBiggerOrSmaller(false)
+function makeSmaller() {
+    makeBiggerOrSmaller(false)
 }
